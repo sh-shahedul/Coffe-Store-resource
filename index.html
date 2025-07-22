@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Coffe Store</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/tailwind.css">
   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
  </head>
@@ -11,8 +12,222 @@
 <body>
 
  <header>
-    
+    <section class="max-w-[1440px] mx-auto ">
+          <div class="flex items-center justify-center bg-[url(images/more/15.jpg)] h-22 sm:h-28 ">
+            <img class="w-[75px] h-[90px]  " src="images/more/logo1.png" alt="">
+            <h1 class="text-2xl text-white px-2 sm:text-4xl ">Espresso Emporium</h1>
+        </div>
+       </section>
+        <!-- banner section  -->
+       <section class=" max-w-[1440px] mx-auto bg-[url(images/more/6.jpeg)] bg-cover h-64 flex items-center sm:h-[400px] lg:h-[600px]">
+          
+        <div class="text-center mx-auto  sm:text-left sm:max-w-md sm:ml-20 lg:max-w-lg  ">
+            <h1 class=" text-xl text-white font-semibold sm:font-bold lg:text-3xl ">Would you like a Cup of Delicious Coffee?</h1>
+            <p class="text-sm text-gray-300 p-2 sm:p-0 sm:mt-2.5 lg:text-base">It's coffee time - Sip & Savor - Relaxation in every sip! Get the nostalgia back!! Your companion of every moment!!! Enjoy the beautiful moments and make them memorable.</p>
+            <button class=" font-semibold bg-amber-300 px-3 py-1 rounded sm:mt-3">Learn More</button>
+        </div>
+       </section>
  </header>
+
+
+ <main>
+   <!-- rreiew  -->
+         
+    <section class="max-w-[1440px] mx-auto bg-[#ECEAE3] p-7  grid sm:grid-cols-2 sm:gap-4  lg:grid-cols-4 lg:gap-4">
+          <div class="max-w-[399px] h-[190px] mx-auto text-center mt-8">
+                 <div class="flex justify-center">
+               <img src="images/icons/1.png" alt="">
+               </div>
+               <h2 class=" text-2xl font-semibold mt-2">Awesome Aroma</h2>
+               <p class=" text-gray-500 mt-1">You will definitely be a fan of the design & aroma of your coffee</p>
+          </div>
+          <div class="max-w-[399px] h-[190px] mx-auto text-center mt-8">
+                 <div class="flex justify-center">
+               <img src="images/icons/2.png" alt="">
+               </div>
+               <h2 class=" text-2xl font-semibold mt-2">High Quality</h2>
+               <p class=" text-gray-500 mt-1">We served the coffee to you maintaining the best quality</p>
+          </div>
+          <div class="max-w-[399px] h-[190px] mx-auto text-center mt-8">
+                 <div class="flex justify-center">
+               <img src="images/icons/3.png" alt="">
+               </div>
+               <h2 class=" text-2xl font-semibold mt-2">Pure Grades</h2>
+               <p class=" text-gray-500 mt-1">The coffee is made of the green coffee beans which you will love</p>
+          </div>
+          <div class="max-w-[399px] h-[190px] mx-auto text-center mt-8">
+                 <div class="flex justify-center">
+               <img src="images/icons/4.png" alt="">
+               </div>
+               <h2 class=" text-2xl font-semibold mt-2">Proper Roasting</h2>
+               <p class=" text-gray-500 mt-1">Your coffee is brewed by first roasting the green coffee beans</p>
+          </div>
+    </section>
+
+    <!-- popular products  -->
+
+    <section class="max-w-[1440px] mx-auto ">
+          <p class="text-gray-500 mt-15 text-center">--- Sip & Savor ---</p>
+          <h3 class="text-3xl font-bold text-center mt-2">Our Popular Products</h3>
+          <div class="flex justify-center">
+          <button class=" font-semibold bg-amber-300 px-4 py-2 rounded mt-4 mb-10">Add coffee</button>
+           </div>
+
+            <!-- product  -->
+         <div class="grid sm:grid-cols-2 sm:gap-4 lg:grid-cols-3 lg:gap-5">
+          <!-- product card  -->
+
+           <div class=" max-w-lg mx-auto flex items-center justify-center gap-8 py-7 bg-[#F5F4F1] m-5 rounded-lg">
+            <img class="w-[110px] h-[170px] " src="images/5.png" alt="">
+            <div class="flex-1 ml-[-20px] ">
+            <p class="text-gray-500"> <span class="font-bold text-black "> Name: </span>&nbsp; Americano Coffee</p>
+            <p class="text-gray-500"><span class="font-bold  text-black">Chef:</span>&nbsp; Mr. Matin Paul</p>
+            <p class="text-gray-500 "><span class="font-bold  text-black">Price:</span>&nbsp; 890 Taka</p>
+            </div>
+            <div class="flex flex-col pr-5">
+              <a href="#"><i class="fa-regular fa-eye  bg-amber-400 p-1.5 mb-4 rounded"></i></a>
+            <a href=""><i class="fa-solid fa-pen text-white bg-black p-[7px] mb-4 rounded"></i></a>
+              <a href="#"><i class="fa-solid fa-trash  text-white bg-red-400 p-[8px] rounded"></i></a>
+            </div>
+           </div>
+           <div class=" max-w-lg mx-auto flex items-center justify-center gap-8 py-7 bg-[#F5F4F1]  m-5 rounded-lg">
+            <img class="w-[110px] h-[170px] pl-3 " src="images/6.png" alt="">
+            <div class="flex-1 ">
+            <p class="text-gray-500"> <span class="font-bold text-black "> Name: </span>&nbsp; Black Coffee</p>
+            <p class="text-gray-500"><span class="font-bold  text-black">Chef:</span>&nbsp; Mr.Nibra Sweden</p>
+            <p class="text-gray-500 "><span class="font-bold  text-black">Price:</span>&nbsp; 1190 Taka</p>
+            </div>
+            <div class="flex flex-col pr-5">
+              <a href="#"><i class="fa-regular fa-eye  bg-amber-400 p-1.5 mb-4 rounded"></i></a>
+            <a href=""><i class="fa-solid fa-pen text-white bg-black p-[7px] mb-4 rounded"></i></a>
+              <a href="#"><i class="fa-solid fa-trash  text-white bg-red-400 p-[8px] rounded"></i></a>
+            </div>
+           </div>
+           <div class=" max-w-lg mx-auto flex items-center justify-center gap-8 py-7 bg-[#F5F4F1]  m-5 rounded-lg">
+            <img class="w-[110px] h-[170px]   " src="images/4.png" alt="">
+            <div class="flex-1 ">
+            <p class="text-gray-500"> <span class="font-bold text-black "> Name: </span>&nbsp; Espresso Coffee</p>
+            <p class="text-gray-500"><span class="font-bold  text-black">Chef:</span>&nbsp; Mrs. Morisha</p>
+            <p class="text-gray-500 "><span class="font-bold  text-black">Price:</span>&nbsp; 790 Taka</p>
+            </div>
+            <div class="flex flex-col pr-5">
+              <a href="#"><i class="fa-regular fa-eye  bg-amber-400 p-1.5 mb-4 rounded"></i></a>
+            <a href=""><i class="fa-solid fa-pen text-white bg-black p-[7px] mb-4 rounded"></i></a>
+              <a href="#"><i class="fa-solid fa-trash  text-white bg-red-400 p-[8px] rounded"></i></a>
+            </div>
+           </div>
+           <div class=" max-w-lg mx-auto flex items-center justify-center gap-8 py-7 bg-[#F5F4F1]  m-5 rounded-lg">
+            <img class="w-[110px] h-[170px]  " src="images/2.png" alt="">
+            <div class="flex-1 ml-[-30px] ">
+            <p class="text-gray-500"> <span class="font-bold text-black "> Name: </span>&nbsp; Cappuccino Coffee</p>
+            <p class="text-gray-500"><span class="font-bold  text-black">Chef:</span>&nbsp; Mr. Moruti</p>
+            <p class="text-gray-500 "><span class="font-bold  text-black">Price:</span>&nbsp; 1090 Taka</p>
+            </div>
+            <div class="flex flex-col pr-5">
+              <a href="#"><i class="fa-regular fa-eye  bg-amber-400 p-1.5 mb-4 rounded"></i></a>
+            <a href=""><i class="fa-solid fa-pen text-white bg-black p-[7px] mb-4 rounded"></i></a>
+              <a href="#"><i class="fa-solid fa-trash  text-white bg-red-400 p-[8px] rounded"></i></a>
+            </div>
+           </div>
+           <div class=" max-w-lg mx-auto flex items-center justify-center gap-8 py-7 bg-[#F5F4F1]  m-5 rounded-lg">
+            <img class="max-w-[160px] h-[170px] " src="images/1.png" alt="">
+            <div class="flex-1 ">
+            <p class="text-gray-500"> <span class="font-bold text-black "> Name: </span>&nbsp;  Macchiato</p>
+            <p class="text-gray-500"><span class="font-bold  text-black">Chef:</span>&nbsp; Mr. Matin Paul</p>
+            <p class="text-gray-500 "><span class="font-bold  text-black">Price:</span>&nbsp; 890 Taka</p>
+            </div>
+            <div class="flex flex-col pr-5">
+              <a href="#"><i class="fa-regular fa-eye  bg-amber-400 p-1.5 mb-4 rounded"></i></a>
+            <a href=""><i class="fa-solid fa-pen text-white bg-black p-[7px] mb-4 rounded"></i></a>
+              <a href="#"><i class="fa-solid fa-trash  text-white bg-red-400 p-[8px] rounded"></i></a>
+            </div>
+           </div>
+           <div class=" max-w-lg mx-auto flex items-center justify-center gap-8 py-7 bg-[#F5F4F1]  m-5 rounded-lg">
+            <img class="max-w-[160px] h-[170px]  " src="images/5.png" alt="">
+            <div class="flex-1 ml-[-8px] ">
+            <p class="text-gray-500"> <span class="font-bold text-black "> Name: </span>&nbsp; Decaf Coffee</p>
+            <p class="text-gray-500"><span class="font-bold  text-black">Chef:</span>&nbsp; Mr.Nibra Sweden</p>
+            <p class="text-gray-500 "><span class="font-bold  text-black">Price:</span>&nbsp; 999 Taka</p>
+            </div>
+            <div class="flex flex-col pr-5">
+              <a href="#"><i class="fa-regular fa-eye  bg-amber-400 p-1.5 mb-4 rounded"></i></a>
+            <a href=""><i class="fa-solid fa-pen text-white bg-black p-[7px] mb-4 rounded"></i></a>
+              <a href="#"><i class="fa-solid fa-trash  text-white bg-red-400 p-[8px] rounded"></i></a>
+            </div>
+           </div>
+         </div>
+ </section>
+            <!-- fpllow on instagram  -->
+        <section class="max-w-[1440px] mx-auto ">
+
+            <p class="text-gray-500 mt-15 text-center" >Follow Us Now</p>
+            <h3 class="text-3xl font-bold text-center mb-9">Follow on Instagram </h3>
+            <!-- cup  -->
+            <div class="flex flex-col max-w-[80%] gap-6 mx-auto sm:grid sm:grid-cols-2 lg:grid lg:grid-cols-4">
+              <img src="images/cups/Rectangle 16.png" alt="">
+              <img src="images/cups/Rectangle 9.png" alt="">
+              <img src="images/cups/Rectangle 11.png" alt="">
+              <img src="images/cups/Rectangle 12.png" alt="">
+              <img src="images/cups/Rectangle 13.png" alt="">
+              <img src="images/cups/Rectangle 14.png" alt="">
+              <img src="images/cups/Rectangle 15.png" alt="">
+              <img src="images/cups/Rectangle 10.png" alt="">
+            </div>
+              
+        </section>
+
+
+ </main>
+ <footer >
+      <section class="max-w-[1440px] mx-auto text-center sm:text-left bg-[url(images/more/13.jpg)] mt-20 ">
+
+        <div class=" sm:flex items-center justify-center gap-30">
+
+
+          <div class="sm:p-7">
+            <div class="flex justify-center sm:justify-start">
+              <img class="w-[75px] h-[90px]  " src="images/more/logo1.png" alt="">
+              </div>
+              <h1 class="text-3xl font-bold  " >Espresso Emporium</h1>
+              <p  class="text-sm text-gray-500 p-2 sm:p-0 sm:max-w-[400px] ">Always ready to be your friend. Come & Contact with us to share your memorable moments, to share with your best companion.</p>
+             
+                <a href=""><i  class="fa-brands fa-facebook  text-orange-950"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter m-4 text-orange-950"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram  text-orange-950"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin m-4 text-orange-950"></i></a>
+                <p class="text-2xl font-bold text-orange-950 "> Get in Touch</p>
+                   
+                <p class="text-gray-500" > <i class="fa-solid fa-phone text-orange-950"></i>&nbsp;  +880 1642 282064</p>
+                <p class="text-gray-500" > <i class="fa-solid fa-envelope text-orange-950"></i> &nbsp; 217447shah@gmail.com</p>
+                <p class="text-gray-500" > <i class="fa-solid fa-location-dot text-orange-950"></i> &nbsp; 72, Wall street, King Road, Dhaka</p>
+
+             
+ 
+          </div>
+
+
+          <div class="sm-7">
+            <h1 class="text-3xl font-bold text-center text-orange-950 mb-2.5">Connect with Us</h1>
+            <form >
+              <div class="">
+              <input class=" bg-white rounded-lg px-10 py-2 max-w-[300px] mx-auto block mb-4 " type="text" name="" id="" placeholder="Name">
+              <input class=" bg-white rounded-lg px-10 py-2 max-w-[300px] mx-auto  block mb-4" type="email" name="" id="" placeholder="Email">
+              <textarea class=" bg-white rounded-lg px-10 py-2 h-28 max-w-[300px] mx-auto block mb-4" class=" text-center" name="" id="" placeholder="Message"></textarea>
+               <input class=" font-semibold bg-orange-950 text-white px-3 py-2 w-[140px] block mx-auto rounded-lg sm:mt-3" type="submit" value="Send Message">
+               </div>
+            </form>
+
+          </div>
+
+
+        </div>
+
+
+      </section>
+      <section class="bg-[url(images/more/24.jpg)] mt-7 ">
+        <p class="text-xl text-white text-center">Copyright Espresso Emporium ! All Rights Reserved</p>
+      </section>
+ </footer>
     
 </body>
 
